@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité · Les Voix du Chemin</title>
+<style>
+  :root {
+    --fond: #FFFCF5;
+    --texte: #2B2B2B;
+    --doux: #6B6459;
+    --accent: #B98500;
+    --trait: #E8DFCF;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #1C1A17;
+      --texte: #F2EDE4;
+      --doux: #B5AC9E;
+      --accent: #F2B705;
+      --trait: #3A352E;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 3rem;
+    background: var(--fond);
+    color: var(--texte);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: normal; font-size: clamp(1.6rem, 5vw, 2.2rem); margin: 0.5rem 0; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 0.5rem; padding-top: 1rem; border-top: 1px solid var(--trait); }
+  .date { color: var(--doux); font-size: 0.9rem; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  .retour { display: inline-block; margin-bottom: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <a class="retour" href="index.html">← Les Voix du Chemin</a>
+  <h1>Règles de confidentialité</h1>
+  <p class="date">Dernière mise à jour : 27 octobre 2026</p>
+
+  <h2>Qui sommes-nous ?</h2>
+  <p>« Les Voix du Chemin » est un projet personnel. L'application associée est un outil privé, utilisé uniquement par son auteur pour organiser ses propres documents de travail.</p>
+
+  <h2>Quelles données l'application utilise-t-elle ?</h2>
+  <p>Avec l'autorisation explicite de l'utilisateur, l'application accède au Google Drive du compte connecté afin de :</p>
+  <ul>
+    <li>retrouver les dossiers du projet ;</li>
+    <li>y déposer des enregistrements audio et leurs transcriptions écrites ;</li>
+    <li>créer des dossiers pour ranger ces documents.</li>
+  </ul>
+  <p>La transcription des enregistrements est réalisée localement, sur l'ordinateur de l'utilisateur.</p>
+
+  <h2>Ce que l'application ne fait jamais</h2>
+  <ul>
+    <li>Elle ne vend, ne loue et ne cède aucune donnée.</li>
+    <li>Elle ne partage aucune donnée avec des tiers.</li>
+    <li>Elle n'utilise aucune donnée à des fins publicitaires.</li>
+    <li>Elle ne transmet aucune donnée de Google Drive à un autre service que Google Drive lui-même.</li>
+  </ul>
+  <p>L'utilisation des informations reçues des API Google respecte les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+
+  <h2>Où sont conservées les données ?</h2>
+  <p>Les documents restent dans le Google Drive du compte de l'utilisateur. Une autorisation d'accès est conservée uniquement sur l'ordinateur de l'utilisateur, afin d'éviter de la redemander à chaque utilisation.</p>
+
+  <h2>Comment retirer l'autorisation ?</h2>
+  <p>L'autorisation peut être retirée à tout moment depuis la page <a href="https://myaccount.google.com/permissions">Applications tierces ayant accès à votre compte</a> de Google.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question : <a href="mailto:lesvoixduchemin@gmail.com">lesvoixduchemin@gmail.com</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les Voix du Chemin</title>
+<meta name="description" content="Les Voix du Chemin : projet en préparation.">
+<style>
+  :root {
+    --fond: #FFFCF5;
+    --texte: #2B2B2B;
+    --doux: #6B6459;
+    --accent: #B98500;
+    --trait: #E8DFCF;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #1C1A17;
+      --texte: #F2EDE4;
+      --doux: #B5AC9E;
+      --accent: #F2B705;
+      --trait: #3A352E;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    background: var(--fond);
+    color: var(--texte);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
+  main { max-width: 34rem; margin: 0 auto; text-align: center; }
+  .coquille { font-size: 3rem; line-height: 1; }
+  h1 { font-size: clamp(2rem, 7vw, 3rem); font-weight: normal; margin: 0.75rem 0 0.5rem; }
+  .fleche { width: 3rem; height: 3px; margin: 1.25rem auto; background: var(--accent); border-radius: 2px; }
+  p { margin: 0.5rem 0; color: var(--doux); }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; text-align: center; font-family: system-ui, sans-serif; font-size: 0.85rem; color: var(--doux); }
+</style>
+</head>
+<body>
+<main>
+  <div class="coquille" aria-hidden="true">🐚</div>
+  <h1>Les Voix du Chemin</h1>
+  <div class="fleche" aria-hidden="true"></div>
+  <p>Projet en préparation.</p>
+  <p>Contact : <a href="mailto:lesvoixduchemin@gmail.com">lesvoixduchemin@gmail.com</a></p>
+</main>
+<footer>
+  <a href="confidentialite.html">Règles de confidentialité</a>
+</footer>
+</body>
+</html>
